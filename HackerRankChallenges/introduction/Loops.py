@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    n = int(raw_input())
+    n = int(input())
 
     for i in range(n):
-        print i*i
+        print(i * i)

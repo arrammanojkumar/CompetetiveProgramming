@@ -21,10 +21,10 @@ class Points(object):
 
 
 if __name__ == '__main__':
-    A = Points(*map(float, raw_input().split()))
-    B = Points(*map(float, raw_input().split()))
-    C = Points(*map(float, raw_input().split()))
-    D = Points(*map(float, raw_input().split()))
+    A = Points(*map(float, input().split()))
+    B = Points(*map(float, input().split()))
+    C = Points(*map(float, input().split()))
+    D = Points(*map(float, input().split()))
 
     x = (B - A).cross(C - B)
     y = (C - B).cross(D - C)
