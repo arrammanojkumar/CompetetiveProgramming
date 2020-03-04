@@ -1,4 +1,4 @@
-import numpy as np
+import numpyProblems as np
 
 if __name__ == "__main__":
     size = int(input())
