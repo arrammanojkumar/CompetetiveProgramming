@@ -8,6 +8,7 @@ import random
 import re
 import sys
 
+
 #
 # Complete the 'reverseArray' function below.
 #
@@ -18,6 +19,7 @@ import sys
 def reverseArray(a):
     # Write your code here
     return a[::-1]
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
