@@ -27,12 +27,10 @@ def migratoryBirds(arr):
     final = {}
     for k, v in d.items():
         if v in final:
-            l = final[v]
-            l.append(k)
-            final[v] = l
+            final[v].append(k)
         else:
             final[v] = [k]
-    return min(final[max(final.keys())])
+    print(min(final[max(final.keys())]))
     # if to use inbuilt functions.
     # print(Counter(map(int, arr)).most_common(1)[0][0])
 
