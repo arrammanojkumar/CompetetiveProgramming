@@ -17,6 +17,8 @@ https://www.hackerrank.com/challenges/migratory-birds
 # The function accepts INTEGER_ARRAY arr as parameter.
 #
 
+# from collections import Counter
+
 def migratoryBirds(arr):
     # Write your code here
     d = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
@@ -31,7 +33,8 @@ def migratoryBirds(arr):
         else:
             final[v] = [k]
     return min(final[max(final.keys())])
-
+    # if to use inbuilt functions.
+    # print(Counter(map(int, arr)).most_common(1)[0][0])
 
 if __name__ == '__main__':
     # fptr = open(os.environ['OUTPUT_PATH'], 'w')
