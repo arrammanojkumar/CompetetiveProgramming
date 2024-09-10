@@ -28,6 +28,6 @@ def substrings(s):
             string = s[start: start + length]
             if is_palindrome(string):
                 return string
-            
+
 
 print(substrings("abb"))
