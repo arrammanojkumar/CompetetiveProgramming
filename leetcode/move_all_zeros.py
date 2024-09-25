@@ -7,6 +7,7 @@ https://leetcode.com/problems/move-zeroes/description/
 """
 
 nums = [1, 0, 1, 0, 3, 12]
+nums = [0, 1, 1, 1, 1, -1, 0]
 
 left = 0
 

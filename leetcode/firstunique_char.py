@@ -5,8 +5,6 @@ __author__ = "Manoj Kumar Arram"
 https://leetcode.com/problems/first-unique-character-in-a-string/
 """
 
-import copy
-
 s = 'leetcode'
 s = list(s)
 d = dict()
